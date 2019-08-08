@@ -1,0 +1,36 @@
+/*Contact*/
+  .footer {
+      position: absolute;
+      bottom: 0%;
+      border: 1px solid #000;
+      width: 100%;
+      display: block;
+}
+
+.footer .footer-menu{
+    width: 100%;
+    /*border: 1px solid #000;*/
+}
+
+.footer .footer-menu ul li{
+    margin-right: 20px;
+    list-style: none;
+    display: block;
+    float: left;
+}
+
+.footer .footer-menu ul ul li{
+    position: relative;
+    left: -40px;
+    margin-top: 10px;
+    display: inherit;
+    float: none;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    display: block;
+    float: left;
+    /*border: 1px solid #000;*/
+}

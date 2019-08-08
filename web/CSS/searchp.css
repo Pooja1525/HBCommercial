@@ -1,0 +1,39 @@
+/*//Searchbar*/
+.search-container {
+  float: left;
+  width: 100%;
+}
+
+.search-container input[type=text] {
+  margin-left: 25%;
+  font-size: 20px;
+  width: 50%;
+  border: 1px solid #000;
+}
+
+.search-container button {
+  float: right;
+  background: #ddd;
+  font-size: 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+  .search-container input[type=text], .search-container button {
+    float: none;
+    text-align: left;
+    margin-top: 300px;
+    padding: 20px;
+    align-content: center;
+  }
+  
+  /*itemdisplay*/
+  
+  
+  
+  
+  
